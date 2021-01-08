@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/flask-idea-homesite.iml" filepath="$PROJECT_DIR$/.idea/flask-idea-homesite.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python-Web-Portfolio-Series-1.iml" filepath="$PROJECT_DIR$/.idea/Python-Web-Portfolio-Series-1.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>
