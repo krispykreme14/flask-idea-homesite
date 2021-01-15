@@ -55,7 +55,7 @@ def playground_route():
   return render_template("playground.html")
 
 @app.route("/Signup")
-def signup():
+def signup_route():
   return render_template("Sign-Up.html")
 
 if __name__ == "__main__":
