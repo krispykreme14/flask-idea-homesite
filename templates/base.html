@@ -21,7 +21,7 @@
     <title>{% block title %}{% endblock %} </title>
 </head>
 
-<body style="background-color:#8a8686">
+<body style="background-image: images/flagbackgroundca.jpg">
 <!-- Navigation Bar from bootstrap -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">COVID STATS</a>
@@ -34,7 +34,6 @@
             <a class="nav-link" href="/USStats">US Stats</a> </div>
 
         <!--code from bootstrap: drop down menu-->
-        <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Big States
             </a>
@@ -48,7 +47,7 @@
                 <a class="dropdown-item" href="/NJ">NJ</a>
 
             </div>
-        </li>
+        </>
     </div>
 </nav>
 <div class="container-fluid">
@@ -57,7 +56,7 @@
             <!--social media icons-->
             {% block info %}
             <!-- jinja -->
-            <a><h5>Corona Virus</h5></a>
+
             <a href={{github}} target="_blank"><i class="fa fa-github"></i></a>
             <a href={{youtube}} target="_blank"><i class="fa fa-youtube-play"></i></a>
             <a href={{twitter}} target="_blank"><i class="fa fa-twitter"></i></a>
