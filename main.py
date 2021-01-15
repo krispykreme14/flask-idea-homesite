@@ -12,37 +12,37 @@ def home_route():
 
 #connects /hello path of server to render NY.html
 @app.route('/NY/')
-def comediandecades_route():
+def NY_route():
   return render_template("NY.html", projects=projects.setup())
 
 #connects /historyofcomedy path of server to render NJ.html
 @app.route('/NJ/')
-def historyofcomedy_route():
+def NJ_route():
   return render_template("NJ.html", projects=projects.setup())
 
 #connects /knock path of server to render FL.html
 @app.route('/FL')
-def knock_route():
+def FL_route():
   return render_template("FL.html", projects=projects.setup())
 
 #connects /iniyaa path of server to render MA.html
 @app.route('/MA')
-def iniyaa_route():
+def MA_route():
   return render_template("MA.html", projects=projects.setup())
 
 #connects /ketki path of server to render OR.html
 @app.route('/OR')
-def ketki_route():
+def OR_route():
   return render_template("OR.html", projects=projects.setup())
 
 #connects /ava path of server to render CA.html
 @app.route('/CA')
-def ava_route():
+def CA_route():
   return render_template("CA.html", projects=projects.setup())
 
 #connects /lucas path of server to render TX.html
 @app.route('/TX')
-def lucas_route():
+def TX_route():
   return render_template("TX.html", projects=projects.setup())
 
 #connects /submit path of server to render submit.html
