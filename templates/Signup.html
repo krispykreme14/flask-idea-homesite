@@ -1,9 +1,17 @@
-<!DOCTYPE html>
+
+{% extends "base.html" %}
+{% block title %}Signup
+{% endblock %}
+
+{% block pagecontent %}
+
+<html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Scrumteam Website</title>
-    <link rel="stylesheet" href="templates/Sign-Up.css">
+  <meta charset="UTF-8">
+  <title>Scrumteam Website</title>
+  <link rel="stylesheet" href="templates/Sign-Up.css">
 </head>
 
 <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
@@ -33,9 +41,14 @@
       <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
         <button type="button"
-        onclick="document.getElementById('id01').style.display='none'"  
-        Class="submitbtn">Sign Up</button>
+                onclick="document.getElementById('id01').style.display='none'"
+                Class="submitbtn">Sign Up</button>
       </div>
     </div>
   </form>
 </div>
+
+</html>
+
+
+{% endblock %}

@@ -55,8 +55,8 @@ def playground_route():
   return render_template("playground.html")
 
 @app.route("/Signup")
-def signup_route():
-  return render_template("Sign-Up.html")
+def Signup_route():
+  return render_template("Signup.html")
 
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='127.0.0.1') #192.168.1.228
