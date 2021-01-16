@@ -1,2 +1,3 @@
-# Welcome to our website
-This is our COVID webscraper site
+# Welcome to our website, all about COVID.
+
+##Progress for week of January 11th:
