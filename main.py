@@ -1,5 +1,4 @@
 import requests
-
 import projects #projects definitions are placed in different file
 
 # https://flask.palletsprojects.com/en/1.1.x/api/
