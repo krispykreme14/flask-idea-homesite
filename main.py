@@ -18,9 +18,9 @@ def get_current_state_data():
   remotedata = response.json()
   return remotedata
 
-#@app.route('/map/')
-#def map_route():
-  #return render_template("map.html")
+@app.route('/map/')
+def map_route():
+  return render_template("map.html")
 
 
 #connects /hello path of server to render NY.html
