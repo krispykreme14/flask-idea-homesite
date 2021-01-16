@@ -4,18 +4,36 @@
 {% block head %}
 <title>{{name}}| Home </title>
 {% endblock %}
-<!-- jumbotron: shows use of bootstrap -->
 {% block pagecontent %}
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">COVID CENTER</h1>
-        <p>This website is so you can acess all the latest US Covid stats all in one place. Hopefully, soon you wont need this website </p>
-    </div>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to COVID Information Supersite!</h1>
+    <p class="lead"> Demo of API access and display.</p>
+    <hr class="my-4">
+    <p>Enjoy!</p>
 </div>
 
+<hr>
+<h2>Current Snapshot of the data</h2>
+<table class="table table-bordered table-sm table-hover">
+    <thead class="thead-dark">
+    <tr>
+        <th>State</th>
+        <th>Positive Cases</th>
+        <th>Total Deaths</th>
+        <th>Currently Hospitalized</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in data %}
+    <TR>
+        <TD class="c2">{{item.state}}</TD>
+        <TD class="c2">{{item.positive}}</TD>
+        <TD class="c3">{{item.death}}</TD>
+        <TD class="c3">{{item.hospitalizedCurrently}}</TD>
 
-
-<!--wells from bootstrap--!>
-
+    </TR>
+    {% endfor %}
+    </tbody>
+</table>
 
 {% endblock %}

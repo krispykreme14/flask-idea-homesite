@@ -1,3 +1,5 @@
+import requests
+
 import projects #projects definitions are placed in different file
 
 # https://flask.palletsprojects.com/en/1.1.x/api/
@@ -8,7 +10,18 @@ app = Flask(__name__)
 #connects default URL of server to render home.html
 @app.route('/')
 def home_route():
-  return render_template("home.html", projects=projects.setup())
+  data = get_current_state_data()
+  return render_template("home.html", data=data)
+
+def get_current_state_data():
+  response = requests.get("https://api.covidtracking.com/v1/states/current.json")
+  remotedata = response.json()
+  return remotedata
+
+#@app.route('/map/')
+#def map_route():
+  #return render_template("map.html")
+
 
 #connects /hello path of server to render NY.html
 @app.route('/NY/')
