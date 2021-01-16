@@ -24,7 +24,7 @@ Completed goals:
 --> Survey uses html for basic parts<br>
 --> Other half uses css for the looks<br>
 --> Can click back to original menu by upper right hand corner or by filling out the form<br>
---> after filling out the form properly you will be sent back to the menu<br>
+--> After filling out the form properly you will be sent back to the menu<br>
 --> The goal for next week is to finish the code where the emails are uploaded into a database<br>
 
 
