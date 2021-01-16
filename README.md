@@ -19,4 +19,12 @@ Completed goals:
 --> code for map was in java script, so it was a challenge to figure out how to call that code in our project, which is HTML and python<br>
 --> Goal is to have data from table visible on map when hovering on a state<br>
 
+- Begun and uploaded parts of big idea 2/3 by Lucas<br>
+--> Created a survery tab so the user can upload their email to the website<br>
+--> Survey uses html for basic parts<br>
+--> Other half uses css for the looks<br>
+--> Can click back to original menu by upper right hand corner or by filling out the form<br>
+--> after filling out the form properly you will be sent back to the menu<br>
+--> The goal for next week is to finish the code where the emails are uploaded into a database<br>
+
 
