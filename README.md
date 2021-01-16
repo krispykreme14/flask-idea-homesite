@@ -5,7 +5,7 @@ Progress for week of January 11th:
 SCRUM GRADING:
 17/20 - site is not deployed yet, so that is a big missing feature. Also, big ticket features are good, but could reflect more collaboration and work from multiple scrum members. big ticket features are started, but not yet completed. We have goals for next week, and will work to accomplish them.
 
-*hit the projects tab to view our scrum board. all tasks from this week are under 
+*hit the projects tab to view our scrum board. all tasks from this week are under in progress or completed and ready to be deployed columns.
 
 Completed goals:
 
