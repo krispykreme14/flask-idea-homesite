@@ -42,6 +42,27 @@ p    {color: black;}
 </body>
 </html>
 
+<table class="table table-bordered table-sm table-hover">
+        <thead class="thead-dark">
+        <tr>
+                <th>State: NJ:</th>
+                <th>Positive Cases: 481040</th>
+                <th>Total Deaths: 13829</th>
+                <th>Currently Hospitalized: 2209</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in data %}
+        <TR>
+                <TD class="c2">{{item.state}}</TD>
+                <TD class="c2">{{item.positive}}</TD>
+                <TD class="c3">{{item.death}}</TD>
+                <TD class="c3">{{item.hospitalizedCurrently}}</TD>
+
+        </TR>
+        {% endfor %}
+        </tbody>
+</table>
 
 
 {% endblock %}

@@ -15,12 +15,33 @@ p    {color: black;}
 </style>
 </head>
 <div>
-
+    <p>we are doing a midterm rn</p>
     <div><h1>California</h1></div>
     <div></div><p>Below are the COVID stats for California.</p></div>
     <div><p>Work in Progress</p></div>
     <diiv><img src="https://i0.wp.com/www.cnps.org/wp-content/uploads/2017/05/california-graphic-300.png?fit=300%2C371&ssl=1"></diiv>
 </div>
+<table class="table table-bordered table-sm table-hover">
+    <thead class="thead-dark">
+    <tr>
+        <th>State: CA:</th>
+        <th>Positive Cases: 3019371</th>
+        <th>Total Deaths: 34433</th>
+        <th>Currently Hospitalized: 20814</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in data %}
+    <TR>
+        <TD class="c2">{{item.state}}</TD>
+        <TD class="c2">{{item.positive}}</TD>
+        <TD class="c3">{{item.death}}</TD>
+        <TD class="c3">{{item.hospitalizedCurrently}}</TD>
+
+    </TR>
+    {% endfor %}
+    </tbody>
+</table>
 
 </html>
 
