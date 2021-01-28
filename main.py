@@ -47,6 +47,10 @@ def MA_route():
 def OR_route():
   return render_template("OR.html", projects=projects.setup())
 
+@app.route('/Easter')
+def Easter_route():
+  return render_template("Easter.html", projects=projects.setup())
+
 #connects /ava path of server to render CA.html
 @app.route('/CA')
 def CA_route():
