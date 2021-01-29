@@ -1,5 +1,9 @@
 # Welcome to our website, all about COVID.
 
+Week of January 25th:
+Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
+
+
 Progress for week of January 11th:
 
 SCRUM GRADING:
