@@ -1,6 +1,11 @@
 # Welcome to our website, all about COVID.
 
-Progress for week of January 11th:
+1/29 Stuff:
+
+link to easter egg http://104.35.27.118/Easter
+
+
+Week of 1/11
 
 SCRUM GRADING:
 17/20 - site is not deployed yet, so that is a big missing feature. Also, big ticket features are good, but could reflect more collaboration and work from multiple scrum members. big ticket features are started, but not yet completed. We have goals for next week, and will work to accomplish them.
