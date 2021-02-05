@@ -36,5 +36,8 @@ SCRUM GRADING:
 --> Links through the California page<br>
 --> Rethink ticket idea, previous idea doesn't have hardcore data to go with it<br>
 --> Changed idea - check boxes or choose button and result is likelyhood of catching covid<br>
+Research: https://www.nature.com/articles/d41586-020-03637-y, https://www.webmd.com/lung/news/20201109/whats-my-risk-of-covid, 
+https://www.mdlinx.com/article/what-are-the-odds-online-calculators-predict-death-covid-19-cancer-and-more/TTxcCN0OSNTMU5eINtlOk,
++ more
 
 
