@@ -4,7 +4,7 @@ Feb 4:
 Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 Link to website: http://p4donsabcd.cf/
 
-Progress for week of January 11th:
+
 
 SCRUM GRADING:
 
@@ -13,7 +13,6 @@ SCRUM GRADING:
 - Began framework for US Map by Ketki<br>
 --> followed tutorial from https://leafletjs.com/examples/choropleth/ <br>
 --> map also utilizes api, it takes a map from another api website.<br>
---> very basic map, no data yet<br>
 --> can zoom in and out on map<br>
 --> code for map was in java script, so it was a challenge to figure out how to call that code in our project, which is HTML and python<br>
 --> Goal is to have data from table visible on map when hovering on a state<br>
