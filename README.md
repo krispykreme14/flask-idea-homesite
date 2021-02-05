@@ -1,15 +1,12 @@
 # Welcome to our website, all about COVID.
 
-Week of January 25th:
+Feb 4:
 Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
-
+Link to website: http://p4donsabcd.cf/
 
 Progress for week of January 11th:
 
 SCRUM GRADING:
-17/20 - site is not deployed yet, so that is a big missing feature. Also, big ticket features are good, but could reflect more collaboration and work from multiple scrum members. big ticket features are started, but not yet completed. We have goals for next week, and will work to accomplish them.
-
-*hit the projects tab to view our scrum board. all tasks from this week are under in progress or completed and ready to be deployed columns.
 
 ## Tickets
 
@@ -32,10 +29,12 @@ SCRUM GRADING:
 --> Completes all the requirements for the deploy process<br>
 --> Can be assessed through link<br>
 
-- Designed and properly filled out the easter egg page by Iniyaa <br>
+- Iniyaa <br>
 --> Embedded links to college board<br> 
 --> Also embedded links to Ap prep materials such as weekly tests and journals<br> 
 --> Used the same design to make it look just like the other parts of our website<br>
 --> Links through the California page<br>
+--> Rethink ticket idea, previous idea doesn't have hardcore data to go with it<br>
+--> Changed idea - check boxes or choose button and result is likelyhood of catching covid<br>
 
 
