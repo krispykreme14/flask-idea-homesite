@@ -1,4 +1,5 @@
 import requests
+import json
 import projects #projects definitions are placed in different file
 
 # https://flask.palletsprojects.com/en/1.1.x/api/
@@ -17,9 +18,83 @@ def get_current_state_data():
   remotedata = response.json()
   return remotedata
 
+def merge_covid_info_with_geojson():
+  #geoJson data for state geometry from https://eric.clst.org/tech/usgeojson/
+  with open('./templates/gz_2010_us_040_00_20m.json') as json_file:
+    statesData = json.loads(json_file.read())
+    response = requests.get(
+      "https://api.covidtracking.com/v1/states/current.json")
+    covid_data = response.json()
+    for state_data in covid_data:
+      state = state_data['state']
+      full_state = state_abbrev_to_full(state)
+      if full_state:
+        ddd = [sd for sd in statesData['features']
+               if sd['properties']['NAME'] == full_state]
+        ddd[0]['properties'].update(state_data)
+  return statesData
+
+
+def state_abbrev_to_full(abbrev):
+  us_state_abbrev = {
+    'AL': 'Alabama',
+    'AK': 'Alaska',
+    'AZ': 'Arizona',
+    'AR': 'Arkansas',
+    'CA': 'California',
+    'CO': 'Colorado',
+    'CT': 'Connecticut',
+    'DC': 'District of Columbia',
+    'DE': 'Delaware',
+    'FL': 'Florida',
+    'GA': 'Georgia',
+    'HI': 'Hawaii',
+    'ID': 'Idaho',
+    'IL': 'Illinois',
+    'IN': 'Indiana',
+    'IA': 'Iowa',
+    'KS': 'Kansas',
+    'KY': 'Kentucky',
+    'LA': 'Louisiana',
+    'ME': 'Maine',
+    'MD': 'Maryland',
+    'MA': 'Massachusetts',
+    'MI': 'Michigan',
+    'MN': 'Minnesota',
+    'MS': 'Mississippi',
+    'MO': 'Missouri',
+    'MT': 'Montana',
+    'NE': 'Nebraska',
+    'NV': 'Nevada',
+    'NH': 'New Hampshire',
+    'NJ': 'New Jersey',
+    'NM': 'New Mexico',
+    'NY': 'New York',
+    'NC': 'North Carolina',
+    'ND': 'North Dakota',
+    'OH': 'Ohio',
+    'OK': 'Oklahoma',
+    'OR': 'Oregon',
+    'PA': 'Pennsylvania',
+    'RI': 'Rhode Island',
+    'SC': 'South Carolina',
+    'SD': 'South Dakota',
+    'TN': 'Tennessee',
+    'TX': 'Texas',
+    'UT': 'Utah',
+    'VT': 'Vermont',
+    'VA': 'Virginia',
+    'WA': 'Washington',
+    'WV': 'West Virginia',
+    'WI': 'Wisconsin',
+    'WY': 'Wyoming',
+  }
+  return us_state_abbrev.get(abbrev)
+
 @app.route('/map/')
 def map_route():
-  return render_template("map.html")
+  data = merge_covid_info_with_geojson()
+  return render_template("map.html", data=data)
 
 
 #connects /hello path of server to render NY.html
