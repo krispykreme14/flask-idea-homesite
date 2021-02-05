@@ -19,6 +19,7 @@ SCRUM GRADING:
 --> Goal is to have data from table visible on map when hovering on a state<br>
 
 - Begun to work to create a session for the website by Lucas <br>
+--> Using this tutorial from https://www.youtube.com/watch?v=2Zz97NVbH0U <br>
 --> The session will attach to the database to allow users to access the website<br>
 --> Uses SQLite<br>
 --> No CSS yet<br>
