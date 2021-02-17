@@ -3,7 +3,8 @@
 Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 Link to website: http://p4donsabcd.cf/
 
-Website Overview: 
+Website Overview:
+This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. There is also a big states dropdown, which highlights the information in some states. There is also a login page which requries an email and password. Those who create an account and log in get directed to a new page. This page is still being worked on and will be a covid risk assesment program. This requries the user to imput some details about themselves and the output will be the level of their COVID 19 risk. 
 
 
 Previous Information
