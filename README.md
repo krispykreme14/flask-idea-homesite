@@ -1,8 +1,14 @@
 # Welcome to our website, all about COVID.
 
-Feb 4:
 Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 Link to website: http://p4donsabcd.cf/
+
+Website Overview: 
+
+
+Previous Information
+
+Feb 4:
 
 Who Am I In Computer Science?
 
