@@ -34,7 +34,7 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/m
 Link on Website: http://p4donsabcd.cf/Sign-Up
 <br>
 
-# Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board</a>
+# Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board)</a>
 
  -->Add CSS, images, and other graphics to make website look more professional;remove jumbotrons, etc.  <br>
 
@@ -47,8 +47,7 @@ Link on Website: http://p4donsabcd.cf/Sign-Up
  --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
  
- # College Board Components in Project: detailed <a href="<a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a>"> worksheet </a>
-
+ # College Board Components in Project: detailed <a href="<a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing">project board)">project plan worksheet
 <h2> Lists </h2> <br>
 <h2> Inputs </h2> <br>
 <h2> Outputs </h2> <br>
