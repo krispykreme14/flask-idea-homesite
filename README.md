@@ -55,9 +55,9 @@ Link on Website: http://p4donsabcd.cf
  
  # College Board Components in Project: detailed <a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing">project plan worksheet</a>
 <h2> Lists </h2> <br> A list is a data type that represents a countable number of ordered values. In our project, we used lists as dictionaries for the abbrievaiation of states.
-<h2> Inputs </h2> <br>
-<h2> Outputs </h2> <br>
-<h2> Procedures </h2> <br>
+<h2> Inputs </h2> <br> An input tells the user what to put in in the code. In our project, we used inputs that trigger the events for the database. Using this the database is able to work correctly with whatever inputs the user wants to input.
+<h2> Outputs </h2> <br> An output is data that a computer sends. In our project, we created a REST API which fetches live data about COVID in the United states. Then, the data is formatted into a table, which is on the homepage of our site. The data on the table is the output of the API.
+<h2> Procedures </h2> <br> 
 <h2> Algorithms </h2> <br>
  
 # Previous Information
