@@ -8,8 +8,10 @@ Link to website: http://p4donsabcd.cf/
 Link to Easter Egg file: http://p4donsabcd.cf/Easter
 
 # Tickets!
-
-
+<h> COVID Data REST API: by Ketki</h>
+This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
+Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html">and here</a>
+Link on Website: 
 
 
 
