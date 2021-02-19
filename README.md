@@ -28,7 +28,7 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 Link on Website: http://p4donsabcd.cf/Easter
 <br>
 
-# Goals for Tickets!
+# Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board</a>
 
  -->Add CSS, images, and other graphics to make website look more professional;remove jumbotrons, etc.  <br>
 
