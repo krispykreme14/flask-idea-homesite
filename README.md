@@ -30,15 +30,15 @@ Link on Website: http://p4donsabcd.cf/Easter
 
 # Goals for Tickets!
 
-<h3> Add CSS, images, and other graphics to make website look more professional;<h3/> <u>remove jumbotrons, etc. </u>  <br>
+<h3> -->Add CSS, images, and other graphics to make website look more professional;<h3/> <u>remove jumbotrons, etc. </u>  <br>
 
-<h3> Get the database working!!<h3/> 
+<h3> -->Get the database working!!<h3/> 
   
-<h3> Add mini apis for each of the individual states pages<h3/>  have them show live data, as opposed to typed numbers  <br>
+<h3> -->Add mini apis for each of the individual states pages<h3/>  have them show live data, as opposed to typed numbers  <br>
   
-<h3> Add exclusive section for people who log in<h3/> analyze their risk based on their location/other factors  <br>
+<h3> -->Add exclusive section for people who log in<h3/> analyze their risk based on their location/other factors  <br>
 
-<h3> Incorporate Scrum Crossover suggestions: <h3/> Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
+<h3> --> Incorporate Scrum Crossover suggestions: <h3/> Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
 Previous Information
 
