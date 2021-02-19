@@ -28,11 +28,17 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 Link on Website: http://p4donsabcd.cf/Easter
 <br>
 
+<h2> Database: by Lucas </h2> <br>
+The databes has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
+Link on Website: http://p4donsabcd.cf/Sign-Up
+<br>
+
 # Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board</a>
 
  -->Add CSS, images, and other graphics to make website look more professional;remove jumbotrons, etc.  <br>
 
- -->Get the database working!!
+ -->Get the session up and running. <br>
   
  -->Add mini apis for each of the individual states pages  have them show live data, as opposed to typed numbers  <br>
   
@@ -41,7 +47,7 @@ Link on Website: http://p4donsabcd.cf/Easter
  --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
  
- # College Board Components in Project: detailed <a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing"> worksheet </a>
+ # College Board Components in Project: detailed <a href="<a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a>"> worksheet </a>
 
 <h2> Lists </h2> <br>
 <h2> Inputs </h2> <br>
