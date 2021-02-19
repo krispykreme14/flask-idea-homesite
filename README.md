@@ -8,37 +8,37 @@ Link to website: http://p4donsabcd.cf/
 Link to Easter Egg file: http://p4donsabcd.cf/Easter
 
 # Completed Tickets!
-<h> COVID Data REST API: by Ketki</h>
+<h2> COVID Data REST API: by Ketki</h2> <br>
 This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
 Link on Website: http://p4donsabcd.cf/
 <br>
 
-<h> Interactive COVID map: by Ketki</h>
+<h2> Interactive COVID map: by Ketki</h2> <br>
 This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
 <br>
 link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a><br>
 Link on Website: http://p4donsabcd.cf/map/
 <br>
 
-<h> Easter Egg: by Iniyaa </h>
+<h2> Easter Egg: by Iniyaa </h2> <br>
 The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
-link to code: 
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 Link on Website: http://p4donsabcd.cf/Easter
 <br>
 
 # Goals for Tickets!
 
-<h> Add CSS, images, and other graphics to make website look more professional;<h/> remove jumbotrons, etc.  <br>
+<h3> Add CSS, images, and other graphics to make website look more professional;<h3/> remove jumbotrons, etc.  <br>
 
-<h> Get the database working!!<h/>   <br>
+<h3> Get the database working!!<h3/>   <br>
   
-<h> Add mini apis for each of the individual states pages<h/> have them show live data, as opposed to typed numbers  <br>
+<h3> Add mini apis for each of the individual states pages<h3/> have them show live data, as opposed to typed numbers  <br>
   
-<h> Add exclusive section for people who log in<h/> analyze their risk based on their location/other factors  <br>
+<h3> Add exclusive section for people who log in<h3/> analyze their risk based on their location/other factors  <br>
 
-<h> Incorporate Scrum Crossover suggestions: <h/> Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
+<h3> Incorporate Scrum Crossover suggestions: <h3/> Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
 Previous Information
 
