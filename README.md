@@ -40,24 +40,23 @@ Link on Website: http://p4donsabcd.cf/Easter
 
  --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
-Previous Information
+ 
+ 
+# Previous Information
 
-Feb 4:
+Feb 4 Reflections:
 
 Who Am I In Computer Science?
 
 Iniyaa: I can build a Python/Flask website, I am working on Python programming and am working to become more experienced and knowledgeable, I have worked briefly on setting up a RasberryPi, I know the concepts of HTML forms, exchanign data between frontend and backend using Flask Framework and Jinja variables.
 
-Ketki: I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I know Database concepts like establishing table sto setup and manage user accounts. I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics.
+Ketki: I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics.
 
 Lucas: I can develop web frontends usin HTML, CSS< and Bootstrap, I know the conepts of HTML forms, building Jinja templates, I can do backend work with SQL databases, specifically SQLite, and SQLalchemy utilizing the Flask framework, I know database concepts like establishing tables to setup and manage user accounts, I know Flask services like login_reuired
 
 Dayita: I can build a Python/FLask web server, I can do the DevOps on Linux, namely settin gup a Python/Flask server using services like Guniorn, and Nginx, I have worked with Internet Service Provider DNS records to setup my own Domain.
 
-
-SCRUM GRADING:
-
-## Tickets
+## Tickets Progress: 6 week mark
 
 - Began framework for US Map by Ketki<br>
 --> followed tutorial from https://leafletjs.com/examples/choropleth/ <br>
