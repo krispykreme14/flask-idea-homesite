@@ -29,9 +29,15 @@ Link on Website: http://p4donsabcd.cf/Easter
 <br>
 
 <h2> Database: by Lucas </h2> <br>
-The databes has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
+The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
 Link on Website: http://p4donsabcd.cf/Sign-Up
+<br>
+
+<h2> NavBar: by Dayita </h2> <br>
+The navbar code allows you to click on the links for different pages, and you are routed to those pages.
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html
+Link on Website: http://p4donsabcd.cf
 <br>
 
 # Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board)</a>
