@@ -41,7 +41,7 @@ Link on Website: http://p4donsabcd.cf/Easter
  --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
  <br>
  
- # College Board Components in Project:
+ # College Board Components in Project: detailed <a href="<a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a>"> worksheet </a>
 
 <h2> Lists </h2> <br>
 <h2> Inputs </h2> <br>
