@@ -54,7 +54,7 @@ Link on Website: http://p4donsabcd.cf
  <br>
  
  # College Board Components in Project: detailed <a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing">project plan worksheet</a>
-<h2> Lists </h2> <br>
+<h2> Lists </h2> <br> A list is a data type that represents a countable number of ordered values. In our project, we used lists as dictionaries for the abbrievaiation of states.
 <h2> Inputs </h2> <br>
 <h2> Outputs </h2> <br>
 <h2> Procedures </h2> <br>
