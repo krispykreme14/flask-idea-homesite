@@ -7,14 +7,39 @@ This website is a COVID 19 Website designed to make sure you can take appropriat
 Link to website: http://p4donsabcd.cf/
 Link to Easter Egg file: http://p4donsabcd.cf/Easter
 
-# Tickets!
+# Completed Tickets!
 <h> COVID Data REST API: by Ketki</h>
 This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
-Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html">and here</a>
-Link on Website: 
+<br>
+Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
+Link on Website: http://p4donsabcd.cf/
+<br>
 
+<h> Interactive COVID map: by Ketki</h>
+This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
+<br>
+link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a><br>
+Link on Website: http://p4donsabcd.cf/map/
+<br>
 
+<h> Easter Egg: by Iniyaa </h>
+The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
+link to code: 
+Link on Website: http://p4donsabcd.cf/Easter
+<br>
 
+# Goals for Tickets!
+
+<h> Add CSS, images, and other graphics to make website look more professional;<h/> remove jumbotrons, etc.  <br>
+
+<h> Get the database working!!<h/>   <br>
+  
+<h> Add mini apis for each of the individual states pages<h/> have them show live data, as opposed to typed numbers  <br>
+  
+<h> Add exclusive section for people who log in<h/> analyze their risk based on their location/other factors  <br>
+
+<h> Incorporate Scrum Crossover suggestions: <h/> Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
+ <br>
 Previous Information
 
 Feb 4:
