@@ -1,19 +1,85 @@
-# Welcome to our website, all about COVID.
+# Welcome to our COVID information site.
 
-Feb 4:
-Link to Easter Egg file: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
+<h2>Website Overview:</h2>
+This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. There is also a big states dropdown, which highlights the information in some states. There is also a login page which requries an email and password. Those who create an account and log in get directed to a new page. This page is still being worked on and will be a covid risk assesment program. This requries the user to imput some details about themselves and the output will be the level of their COVID 19 risk. 
+
+<h2>How to acces COVID information site:</h2>
 Link to website: http://p4donsabcd.cf/
+Link to Easter Egg file: http://p4donsabcd.cf/Easter
 
-Progress for week of January 11th:
+# Completed Tickets!
+<h2> COVID Data REST API: by Ketki</h2> <br>
+This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
+<br>
+Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
+Link on Website: http://p4donsabcd.cf/
+<br>
 
-SCRUM GRADING:
+<h2> Interactive COVID map: by Ketki</h2> <br>
+This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
+<br>
+link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a><br>
+Link on Website: http://p4donsabcd.cf/map/
+<br>
 
-## Tickets
+<h2> Easter Egg: by Iniyaa </h2> <br>
+The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
+Link on Website: http://p4donsabcd.cf/Easter
+<br>
+
+<h2> Database: by Lucas </h2> <br>
+The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
+Link on Website: http://p4donsabcd.cf/Sign-Up
+<br>
+
+<h2> NavBar: by Dayita </h2> <br>
+The navbar code allows you to click on the links for different pages, and you are routed to those pages.
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html
+Link on Website: http://p4donsabcd.cf
+<br>
+
+# Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board)</a>
+
+ -->Add CSS, images, and other graphics to make website look more professional;remove jumbotrons, etc.  <br>
+
+ -->Get the session up and running. <br>
+  
+ -->Add mini apis for each of the individual states pages  have them show live data, as opposed to typed numbers  <br>
+  
+ -->Add exclusive section for people who log inanalyze their risk based on their location/other factors  <br>
+
+ --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
+ <br>
+ 
+ # College Board Components in Project: detailed <a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing">project plan worksheet</a>
+<h2> Lists </h2> <br> A list is a data type that represents a countable number of ordered values. In our project, we used lists as dictionaries for the abbrievaiation of states.
+<h2> Inputs </h2> <br> An input tells the user what to put in in the code. In our project, we used inputs that trigger the events for the database. Using this the database is able to work correctly with whatever inputs the user wants to input.
+<h2> Outputs </h2> <br> An output is data that a computer sends. In our project, we created a REST API which fetches live data about COVID in the United states. Then, the data is formatted into a table, which is on the homepage of our site. The data on the table is the output of the API.
+<h2> Procedures </h2> <br> A procedure is a small section of a program that performs a specific task. We are addong one, and it will be used to create risk assessment.
+<h2> Algorithms </h2> <br> An algorithm is a specific procedure for solving a well-defined computational problem. It will be used in the Covid Risk assessment factor where you input the factors that impact you and the output is what your risk is.  
+
+ 
+# Previous Information
+
+Feb 4 Reflections:
+
+Who Am I In Computer Science?
+
+Iniyaa: I can build a Python/Flask website, I am working on Python programming and am working to become more experienced and knowledgeable, I have worked briefly on setting up a RasberryPi, I know the concepts of HTML forms, exchanign data between frontend and backend using Flask Framework and Jinja variables.
+
+Ketki: I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics.
+
+Lucas: I can develop web frontends usin HTML, CSS< and Bootstrap, I know the conepts of HTML forms, building Jinja templates, I can do backend work with SQL databases, specifically SQLite, and SQLalchemy utilizing the Flask framework, I know database concepts like establishing tables to setup and manage user accounts, I know Flask services like login_reuired
+
+Dayita: I can build a Python/FLask web server, I can do the DevOps on Linux, namely settin gup a Python/Flask server using services like Guniorn, and Nginx, I have worked with Internet Service Provider DNS records to setup my own Domain.
+
+## Tickets Progress: 6 week mark
 
 - Began framework for US Map by Ketki<br>
 --> followed tutorial from https://leafletjs.com/examples/choropleth/ <br>
 --> map also utilizes api, it takes a map from another api website.<br>
---> very basic map, no data yet<br>
 --> can zoom in and out on map<br>
 --> code for map was in java script, so it was a challenge to figure out how to call that code in our project, which is HTML and python<br>
 --> Goal is to have data from table visible on map when hovering on a state<br>
