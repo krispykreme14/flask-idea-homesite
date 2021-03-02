@@ -1,0 +1,32 @@
+<!-- Ketki's page on the website -->
+{% extends "base.html" %}
+{% block title %}{{ data.name }}
+{% endblock %} 
+
+{% block pagecontent %}
+
+<div>
+ <div><h1>{{ data.coviddata.state }}</h1></div>
+ <div><p>Below are the COVID stats for {{data.coviddata.state}}.</p></div>
+ {% if data.mapimage %}
+ <img src="{{ data.mapimage }}"/>
+ {% endif %}
+ <table class="table table-bordered table-sm table-hover ">
+  <thead class="thead-dark">
+  <tr>
+   <th>Positive Cases</th>
+   <th>Negative</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+   <td>{{data.coviddata.positive}}</td>
+   <td>{{data.coviddata.negative}}</td>
+
+  </tr>
+  </tbody>
+ </table>
+</div>
+
+
+{% endblock %} 

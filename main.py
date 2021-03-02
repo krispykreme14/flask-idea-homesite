@@ -74,6 +74,11 @@ def merge_covid_info_with_geojson():
         ddd[0]['properties'].update(state_data)
   return statesData
 
+def get_state_images(state):
+  state_images = {
+    'ma': 'https://www.saferstates.org/assets/details-page-images/massachussetts.png',
+  }
+  return state_images.get(state.lower())
 
 def state_abbrev_to_full(abbrev):
   us_state_abbrev = {
@@ -146,6 +151,15 @@ def NY_route():
 @app.route('/NJ/')
 def NJ_route():
   return render_template("NJ.html", projects=projects.setup())
+
+# connects /state/:code to render dynamic state detailed data
+@app.route('/state/<state>')
+def state_route(state):
+  response = requests.get("https://api.covidtracking.com/v1/states/"+state+"/current.json")
+  remotedata = response.json()
+
+  data = {'name': state, 'coviddata': remotedata, 'mapimage': get_state_images(state)}
+  return render_template("State.html", data=data)
 
 #connects /knock path of server to render FL.html
 @app.route('/FL')
