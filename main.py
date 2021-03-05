@@ -1,15 +1,18 @@
 import json
+
+import requests
 # import projects #projects definitions are placed in different file
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, redirect, url_for
+from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
+from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
+from flask_wtf.csrf import CSRFProtect
+from werkzeug.security import generate_password_hash, check_password_hash
 from wtforms import StringField, PasswordField, BooleanField
 from wtforms.validators import InputRequired, Email, Length
-from flask_wtf.csrf import CSRFProtect, CSRFError
-from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
-import requests
-import projects 
+
+import projects
+
 ##!!! MUST PIP INSTALL ALL DEPENDANCIES INCLUDING email-validator
 #projects definitions are placed in different file
 
