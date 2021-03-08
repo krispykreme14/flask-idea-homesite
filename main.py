@@ -363,7 +363,7 @@ def login():
     return render_template('login.html', form=form)
 
 
-@app.route('/signup', methods=['GET', 'POST'])
+@app.route('/Signup', methods=['GET', 'POST'])
 def signup():
     form = RegisterForm()
 
