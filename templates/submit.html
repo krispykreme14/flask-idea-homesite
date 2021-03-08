@@ -1,0 +1,52 @@
+
+{% extends "base.html" %}
+{% block title %}Covid Survey Results
+{% endblock %}
+
+{% block pagecontent %}
+
+
+<div>
+    <head>
+        <style>
+h1   {color: black;}
+<h1></h1>
+p    {color: black;}
+</style>
+    </head>
+    </html>
+<body>
+<meta name="csrf-token" content="{{csrf_token()}}">
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Question No</th>
+        <th scope="col">Your Answer</th>
+        <th scope="col">Correct Answer</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in range(4) %}
+
+    <tr>
+        <th scope="row">{{i+1}}</th>
+        <th scope="row">{{given_ans[i]}}</th>
+        <th scope="row">{{correct_ans[i]}}</th>
+    </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+
+
+
+
+
+
+
+
+
+
+</div>
+    {% endblock %}
