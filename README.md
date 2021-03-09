@@ -6,6 +6,7 @@ This website is a COVID 19 Website designed to make sure you can take appropriat
 <h2>How to acces COVID information site:</h2>
 Link to website: http://p4donsabcd.cf/
 Link to Easter Egg file: http://p4donsabcd.cf/Easter
+To use simply click the links in the nav bar! This website was designed with ease of navigation in mind! Enjoy learning about COVID 19 and stay safe!!!
 
 # Completed Tickets!
 <h2> COVID Data REST API: by Ketki</h2> <br>
@@ -48,4 +49,20 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/m
 Link on Website: http://p4donsabcd.cf/Sign-Up
 <br>
 
+# Who am I in computer science!
+<h2> Ketki</h2> <br>
+asdasdfjasdf"> here</a> <br>
 
+<h2> Ketki</h2> <br>
+asdasdfjasdf"> here</a> <br>
+
+<h2> Ketki</h2> <br>
+asdasdfjasdf"> here</a> <br>
+
+<h2> Ketki</h2> <br>
+asdasdfjasdf"> here</a> <br>
+
+
+# College Board Requirements
+<h2> Ketki</h2> <br>
+asdasdfjasdf"> here</a> <br>
