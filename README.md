@@ -1,7 +1,7 @@
 # Welcome to our COVID information site.
 
 <h2>Website Overview:</h2>
-This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. There is also a big states dropdown, which highlights the information in some states. There is also a login page which requries an email and password. Those who create an account and log in get directed to a new page. This page is still being worked on and will be a covid risk assesment program. This requries the user to imput some details about themselves and the output will be the level of their COVID 19 risk. 
+This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. When you click on a state, it takes you to an individual state page that contains the COVID stats for that specific state. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. The different colors represent the varying number of cases in different states. There is also a surprise dropdown, which contains a link to a California page, and if you click on the California image, you will be directed to our easter egg. Another section is the sighnup section. Those who create an account and log in get directed to a new page, which contains the link to our COVID trivia quiz. This quiz, which utilizes Flask forms, tells the viewer how knowledgeable they are about covid precautitons.  
 
 <h2>How to acces COVID information site:</h2>
 Link to website: http://p4donsabcd.cf/
@@ -28,17 +28,24 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 Link on Website: http://p4donsabcd.cf/Easter
 <br>
 
+<h2> Covid Trivia: by Iniyaa </h2> <br>
+The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
+Link on Website: http://p4donsabcd.cf<br>
+
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
 Link on Website: http://p4donsabcd.cf/Sign-Up
 <br>
 
-<h2> NavBar: by Dayita </h2> <br>
-The navbar code allows you to click on the links for different pages, and you are routed to those pages.
-link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html
-Link on Website: http://p4donsabcd.cf
+<h2> Raspberry Pi: by Dayita </h2> <br>
+The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
+Link on Website: http://p4donsabcd.cf/Sign-Up
 <br>
+
+
 
 # Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board)</a>
 
