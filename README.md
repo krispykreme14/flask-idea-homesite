@@ -30,7 +30,7 @@ Link on Website: http://p4donsabcd.cf/Easter
 
 <h2> Covid Trivia: by Iniyaa </h2> <br>
 The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
-link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
 Link on Website: http://p4donsabcd.cf<br>
 
 <h2> Database: by Lucas </h2> <br>
