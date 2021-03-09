@@ -33,6 +33,9 @@ The Trivia page was created using Flask WTForms. The code on main.py is in pytho
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
 Link on Website: http://p4donsabcd.cf<br>
 
+<h2> Website Outline: by Iniyaa </h2> <br>
+The Website outline was the first ticket completed. This is the framework for the website, which includes the app.routes in main.py, the html pages in templates, the nav bar in base.html and more. This website was created primarily in python and html, but also has some css, jinja, and bootstrap. <br>
+
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
