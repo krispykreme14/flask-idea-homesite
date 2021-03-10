@@ -82,16 +82,16 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/m
 
 # Who am I in computer science!
 <h2>Ketki</h2> <br>
-type stuff <br>
+I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I know Database concepts like establishing table sto setup and manage user accounts. I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics. <br>
 
 <h2>Iniyaa</h2> <br>
 I can build a Python/Flask webpage using html and python(frontend and backend code). I can develop web front ends(shown in the state html pages along with quiz, navbar, and home page). I am learning the concepts of HTML forms and exchanging data between frontend and backend using Flask Framework and Jinja variables(shown by quiz page and results page). I am a collaborative worker who can effectively communicate and work on a shared platform wiht scrum team members.</a> <br>
 
 <h2>Lucas</h2> <br>
-type stuff <br>
+I can develop web frontends usin HTML, CSS< and Bootstrap, I know the conepts of HTML forms, building Jinja templates, I can do backend work with SQL databases, specifically SQLite, and SQLalchemy utilizing the Flask framework, I know database concepts like establishing tables to setup and manage user accounts, I know Flask services like login_reuired <br>
 
 <h2>Dayita</h2> <br>
-type stuff <br>
+I can build a Python/FLask web server, I can do the DevOps on Linux, namely settin gup a Python/Flask server using services like Guniorn, and Nginx, I have worked with Internet Service Provider DNS records to setup my own Domain. <br>
 
 # College Board Requirements
 <h2> Inputs</h2> <br>
