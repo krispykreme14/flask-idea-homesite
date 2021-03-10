@@ -45,8 +45,8 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/m
 <h2> Website Outline: by Iniyaa </h2> <br>
 The Website outline was the first ticket completed. This is the framework for the website, which includes the app.routes in main.py, the html pages in templates, the nav bar in base.html and more. This website was created primarily in python and html, but also has some css, jinja, and bootstrap. <br>
 
-<h2> Database: by Lucas </h2> <br>
-The database has a full history of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. The database works by getting the users login information such as email, username, and password. Then when the account is created it allows the user to sign in using the login page where they enter choosen username and password. After signing in the database welcomes the user by whatever there username is. Now the user's information is saved forever usless deleted in the DB browser.
+<h2> Login/Database: by Lucas </h2> <br>
+The database has a full history of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. The database works by getting the users login information such as email, username, and password. Then when the account is created it allows the user to sign in using the login page where they enter choosen username and password. After signing in the database welcomes the user by whatever there username is. Now the user's information is saved forever unless deleted in the DB browser.
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
 
 
