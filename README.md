@@ -10,7 +10,7 @@ To use simply click the links in the nav bar! This website was designed with eas
 
 # Completed Tickets!
 <h2> COVID Data REST API: by Ketki</h2> <br>
-This api pulls data from a <a href="https://api.covidtracking.com/v1/states/current.json">json formatted file,</a>  and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
+This api pulls data from a <a href="https://api.covidtracking.com/v1/states/current.json">json formatted file,</a>  and it displays the REALTIME data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap. The api utilizes requests/return (in main.py) to fetch data and display it.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
 
@@ -18,7 +18,7 @@ Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 <br>
 
 <h2> Interactive COVID map: by Ketki</h2> <br>
-This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
+This map pulls data from the same source as the table. When you hover on each state, you see the REALTIME data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
 <br>
 link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a>
 <br>
