@@ -1,3 +1,23 @@
+**Images that correspond to tickets**
+<br>
+This set of images highlights some of the more notable aspects of our website, scroll down to see more details about our website/college board requirements
+<br>
+Home page w/ COVID data RestAPI
+![covidhomepagealsdkjfa;sldkjf](https://user-images.githubusercontent.com/73010548/110581769-018ebb80-8120-11eb-98a1-42f649f2e3b4.PNG)
+COVID Map
+![covid map als;dkjfasl;kdjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581778-03f11580-8120-11eb-9f1c-371ecd279c57.PNG)
+Register Page
+![register page al;dsfkjasldkjf](https://user-images.githubusercontent.com/73010548/110581791-094e6000-8120-11eb-9447-5131d0017f06.PNG)
+Sign In Page for returning users
+![login as;dlfal;sdkfjalskdjf;aslkdfj;laks](https://user-images.githubusercontent.com/73010548/110581801-0eabaa80-8120-11eb-9c8b-f81dfa391728.PNG)
+Page after login
+![after login al;dskjfaldskjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581806-11a69b00-8120-11eb-9c7f-d1e98967f681.PNG)
+Quiz Page
+![quiz page al;dskjfa;sldkfj;asldkj](https://user-images.githubusercontent.com/73010548/110581816-1408f500-8120-11eb-8e07-bcd7052f6b76.PNG)
+Results Page
+![results alsd;kfjasl;dkjfal;skdjasldk](https://user-images.githubusercontent.com/73010548/110581821-18351280-8120-11eb-9896-f0f7b1e09cab.PNG)
+
+
 # Welcome to our COVID information site.
 
 <h2>Website Overview:</h2>
@@ -13,7 +33,7 @@ To use simply click the links in the nav bar! This website was designed with eas
 This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
-![homepageimage](https://user-images.githubusercontent.com/73010548/110580111-d2c31600-811c-11eb-8213-6ae2cb2961a6.PNG)
+
 
 <br>
 
@@ -22,7 +42,7 @@ This map pulls data from the same source as the table. When you hover on each st
 <br>
 link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a>
 <br>
-![mapimage](https://user-images.githubusercontent.com/73010548/110580126-d9518d80-811c-11eb-8e90-3697acbf6149.PNG)
+(https://user-images.githubusercontent.com/73010548/110580126-d9518d80-811c-11eb-8e90-3697acbf6149.PNG)
 
 <br>
 
@@ -35,9 +55,9 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
 <br>
-![quiz image](https://user-images.githubusercontent.com/73010548/110580142-e3738c00-811c-11eb-8350-5f006666ce66.PNG)
+(https://user-images.githubusercontent.com/73010548/110580142-e3738c00-811c-11eb-8350-5f006666ce66.PNG)
 <br>
-![quiz results image](https://user-images.githubusercontent.com/73010548/110580147-e5d5e600-811c-11eb-8415-c2640bcb4460.PNG)
+(https://user-images.githubusercontent.com/73010548/110580147-e5d5e600-811c-11eb-8415-c2640bcb4460.PNG)
 
 <br>
 
@@ -47,14 +67,13 @@ The Website outline was the first ticket completed. This is the framework for th
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
-<br>
-![register page image](https://user-images.githubusercontent.com/73010548/110580160-ee2e2100-811c-11eb-8da5-dfbe8f8d58eb.PNG)
-<br>
-![login page image](https://user-images.githubusercontent.com/73010548/110580165-eff7e480-811c-11eb-8e4a-2cb69baf9ddc.PNG)
-<br>
-![after login page image](https://user-images.githubusercontent.com/73010548/110580170-f25a3e80-811c-11eb-998f-4510cf197e4c.PNG)
 
-<br>
+(https://user-images.githubusercontent.com/73010548/110580160-ee2e2100-811c-11eb-8da5-dfbe8f8d58eb.PNG)
+
+(https://user-images.githubusercontent.com/73010548/110580165-eff7e480-811c-11eb-8e4a-2cb69baf9ddc.PNG)
+
+(https://user-images.githubusercontent.com/73010548/110580170-f25a3e80-811c-11eb-998f-4510cf197e4c.PNG)
+
 
 <h2> Raspberry Pi: by Dayita </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
