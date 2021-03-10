@@ -64,5 +64,5 @@ asdasdfjasdf"> here</a> <br>
 
 
 # College Board Requirements
-<h2> Ketki</h2> <br>
-asdasdfjasdf"> here</a> <br>
+<h2> Inputs</h2> <br>
+We have multiple places where user input is necessary on our website. Users must input their username, email, and password to sign up, and must input their username and password to login to our website. Additionally, users must input their choices for the covid trivia quiz in order to get their score/the correct answers. Links to code with corresponding ticket items. <br>
