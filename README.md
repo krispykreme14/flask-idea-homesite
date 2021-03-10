@@ -1,109 +1,131 @@
+**Images that correspond to tickets**
+<br>
+This set of images highlights some of the more notable aspects of our website, scroll down to see more details about our website/college board requirements
+<br>
+Home page w/ COVID data RestAPI
+<br>
+![covidhomepagealsdkjfa;sldkjf](https://user-images.githubusercontent.com/73010548/110581769-018ebb80-8120-11eb-98a1-42f649f2e3b4.PNG)
+<br>
+COVID Map
+<br>
+![covid map als;dkjfasl;kdjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581778-03f11580-8120-11eb-9f1c-371ecd279c57.PNG)
+<br>
+Register Page
+<br>
+![register page al;dsfkjasldkjf](https://user-images.githubusercontent.com/73010548/110581791-094e6000-8120-11eb-9447-5131d0017f06.PNG)
+<br>
+Sign In Page for returning users
+<br>
+![login as;dlfal;sdkfjalskdjf;aslkdfj;laks](https://user-images.githubusercontent.com/73010548/110581801-0eabaa80-8120-11eb-9c8b-f81dfa391728.PNG)
+<br>
+Page after login
+<br>
+![after login al;dskjfaldskjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581806-11a69b00-8120-11eb-9c7f-d1e98967f681.PNG)
+<br>
+Quiz Page
+<br>
+![quiz page al;dskjfa;sldkfj;asldkj](https://user-images.githubusercontent.com/73010548/110581816-1408f500-8120-11eb-8e07-bcd7052f6b76.PNG)
+<br>
+Results Page
+<br>
+![results alsd;kfjasl;dkjfal;skdjasldk](https://user-images.githubusercontent.com/73010548/110581821-18351280-8120-11eb-9896-f0f7b1e09cab.PNG)
+
+
 # Welcome to our COVID information site.
 
 <h2>Website Overview:</h2>
-This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. There is also a big states dropdown, which highlights the information in some states. There is also a login page which requries an email and password. Those who create an account and log in get directed to a new page. This page is still being worked on and will be a covid risk assesment program. This requries the user to imput some details about themselves and the output will be the level of their COVID 19 risk. 
+This website is a COVID 19 Website designed to make sure you can take appropriate precautitons to stay safe during this global pandemic. The home page contains a table which is the output of a RestAPI. This table provides some of the most important COVID stats in all 50 states. When you click on a state, it takes you to an individual state page that contains the COVID stats for that specific state. In the navigation bar, you can see that there are multiple pages. The map page is interactive and has additional covid stats rgarding each state but in a geographical view for a better understanding of the severity of covid in different states. The different colors represent the varying number of cases in different states. There is also a surprise dropdown, which contains a link to a California page, and if you click on the California image, you will be directed to our easter egg. Another section is the sighnup section. Those who create an account and log in get directed to a new page, which contains the link to our COVID trivia quiz. This quiz, which utilizes Flask forms, tells the viewer how knowledgeable they are about covid precautitons.  
 
 <h2>How to acces COVID information site:</h2>
 Link to website: http://p4donsabcd.cf/
 Link to Easter Egg file: http://p4donsabcd.cf/Easter
+To use simply click the links in the nav bar! This website was designed with ease of navigation in mind! Enjoy learning about COVID 19 and stay safe!!!
 
 # Completed Tickets!
 <h2> COVID Data REST API: by Ketki</h2> <br>
 This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
-Link on Website: http://p4donsabcd.cf/
+
+
 <br>
 
 <h2> Interactive COVID map: by Ketki</h2> <br>
 This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
 <br>
-link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a><br>
-Link on Website: http://p4donsabcd.cf/map/
+link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a>
 <br>
+
 
 <h2> Easter Egg: by Iniyaa </h2> <br>
 The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
-Link on Website: http://p4donsabcd.cf/Easter
 <br>
+
+<h2> Covid Trivia: by Iniyaa </h2> <br>
+The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
+<br>
+
+<h2> Website Outline: by Iniyaa </h2> <br>
+The Website outline was the first ticket completed. This is the framework for the website, which includes the app.routes in main.py, the html pages in templates, the nav bar in base.html and more. This website was created primarily in python and html, but also has some css, jinja, and bootstrap. <br>
 
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
-Link on Website: http://p4donsabcd.cf/Sign-Up
+
+
+<h2> Raspberry Pi: by Dayita </h2> <br>
+The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
+link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
 <br>
 
-<h2> NavBar: by Dayita </h2> <br>
-The navbar code allows you to click on the links for different pages, and you are routed to those pages.
-link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html
-Link on Website: http://p4donsabcd.cf
+# Who am I in computer science!
+<h2>Ketki</h2> <br>
+I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I know Database concepts like establishing table sto setup and manage user accounts. I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics. <br>
+
+<h2>Iniyaa</h2> <br>
+I can build a Python/Flask webpage using html and python(frontend and backend code). I can develop web front ends(shown in the state html pages along with quiz, navbar, and home page). I am learning the concepts of HTML forms and exchanging data between frontend and backend using Flask Framework and Jinja variables(shown by quiz page and results page). I am a collaborative worker who can effectively communicate and work on a shared platform wiht scrum team members.</a> <br>
+
+<h2>Lucas</h2> <br>
+I can develop web frontends usin HTML, CSS< and Bootstrap, I know the conepts of HTML forms, building Jinja templates, I can do backend work with SQL databases, specifically SQLite, and SQLalchemy utilizing the Flask framework, I know database concepts like establishing tables to setup and manage user accounts, I know Flask services like login_reuired <br>
+
+<h2>Dayita</h2> <br>
+I can build a Python/FLask web server, I can do the DevOps on Linux, namely settin gup a Python/Flask server using services like Guniorn, and Nginx, I have worked with Internet Service Provider DNS records to setup my own Domain. <br>
+
+# College Board Requirements
+<h2> Inputs</h2> <br>
+We have multiple places where user input is necessary on our website. Users must input their username, email, and password to sign up, and must input their username and password to login to our website. Additionally, users must input their choices for the covid trivia quiz in order to get their score/the correct answers. Links to code with corresponding ticket items. <br>
+
+<h2>Lists</h2> <br>
+We use lists for thq covid trivia, as the correct answers are stored in a list as are the the answer choices. Additionally, the state abbreviations are stored in a dictionary that counts in the list category in terms of college board requirements. <br>
+
+<h2>Procedures</h2> <br>
+We use procedures which can be seen in our main.py file. The procedures each render a html file and the different routes correspond to pages on the website. Additionally, the quiz and login are both procedures, and the results from the quiz procedure is passed to submit to display the correct/incorrect answers.<br>
+
+<h2>Output</h2> <br>
+The COVID map is an output with all the color coded states and state statistics. The RestAPI data is displayed in both the table and the map. Additionally, the results page of the COVID trivia quiz are also an output which is in response to the users input.<br>
+
+<h2>Algorithms</h2> <br>
+We have many algorithms in our project. We have if/elif statements in the quiz part of the website which appends to a list, collecting how many answers you get right. Additionally, we use GET and POST in both the quiz and the login, which takes account of the input the user puts into the website. The quiz uses the users choices and the POST prodedure is used in the results/submit portion. Additionally, GET is used for getting the data from the user when they are signing up, and POST is used to send data to the server, which then remembers the user. <br>
+
+# College Board Big Ideas
+<h2>1. Creative Development</h2> <br>
+Our website is a creative outlet for all our team members. The look and contents of the website reflects each of our creative thoughts and ideas. We worked collaborativley to bring togeather a COVID webscraper site which gives the user information about the pandemic. <br>
+
+<h2>2. Data</h2> <br>
+We use SQLite for the login page and use RestAPIs for our data that is shown in the map and table. We use GET and POST in our login and quiz pages. This is connected in our python bakcend. <br>
+
+<h2>3. Algorithms and Programming</h2> <br>
+We use Python, HTML, JINJA, and bootstrap on our website to create an aesthetic website. We use python for the backend code which includes more logic, and we use HTML and JINJA for our front end code which is the visual aspect of the website. <br>
+
+<h2>4. Computer Systems and Networks</h2> <br>
+Our website is deployed on a Raspberry Pi server, which allows anyone to acess the website. WE also use HTTP to get data from the use and POST to update our database of logins. <br>
+
+<h2>5. Impact of Computing</h2> <br>
+Not only did building this website help each of our team members grow intellectually, our website can also help people living today worried about their wellbeind during this global pandemic. Since this website shows statistics about covid and even has a trivia quiz which tests a person's aptitude in covid related situations. Our team was able to expand our computer science horizons, and looks forward to learning even more aspects of computer science next trimester and beyond <br>
+
+
+# Goals for Tri 3
 <br>
-
-# Goals for Tickets! (more details on <a href="https://github.com/krispykreme14/flask-idea-homesite/projects/1">project board)</a>
-
- -->Add CSS, images, and other graphics to make website look more professional;remove jumbotrons, etc.  <br>
-
- -->Get the session up and running. <br>
-  
- -->Add mini apis for each of the individual states pages  have them show live data, as opposed to typed numbers  <br>
-  
- -->Add exclusive section for people who log inanalyze their risk based on their location/other factors  <br>
-
- --> Incorporate Scrum Crossover suggestions: Having the database login take you to an individual page for each user, add commas for the numbers on the table so it would be easier to look at the data. 
- <br>
- 
- # College Board Components in Project: detailed <a href="https://docs.google.com/document/d/1hvmA9GZcO8op97wN5xIIAKVJGVGQ2c368WFzBFz937I/edit?usp=sharing">project plan worksheet</a>
-<h2> Lists </h2> <br> A list is a data type that represents a countable number of ordered values. In our project, we used lists as dictionaries for the abbrievaiation of states.
-<h2> Inputs </h2> <br> An input tells the user what to put in in the code. In our project, we used inputs that trigger the events for the database. Using this the database is able to work correctly with whatever inputs the user wants to input.
-<h2> Outputs </h2> <br> An output is data that a computer sends. In our project, we created a REST API which fetches live data about COVID in the United states. Then, the data is formatted into a table, which is on the homepage of our site. The data on the table is the output of the API.
-<h2> Procedures </h2> <br> A procedure is a small section of a program that performs a specific task. We are addong one, and it will be used to create risk assessment.
-<h2> Algorithms </h2> <br> An algorithm is a specific procedure for solving a well-defined computational problem. It will be used in the Covid Risk assessment factor where you input the factors that impact you and the output is what your risk is.  
-
- 
-# Previous Information
-
-Feb 4 Reflections:
-
-Who Am I In Computer Science?
-
-Iniyaa: I can build a Python/Flask website, I am working on Python programming and am working to become more experienced and knowledgeable, I have worked briefly on setting up a RasberryPi, I know the concepts of HTML forms, exchanign data between frontend and backend using Flask Framework and Jinja variables.
-
-Ketki: I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics.
-
-Lucas: I can develop web frontends usin HTML, CSS< and Bootstrap, I know the conepts of HTML forms, building Jinja templates, I can do backend work with SQL databases, specifically SQLite, and SQLalchemy utilizing the Flask framework, I know database concepts like establishing tables to setup and manage user accounts, I know Flask services like login_reuired
-
-Dayita: I can build a Python/FLask web server, I can do the DevOps on Linux, namely settin gup a Python/Flask server using services like Guniorn, and Nginx, I have worked with Internet Service Provider DNS records to setup my own Domain.
-
-## Tickets Progress: 6 week mark
-
-- Began framework for US Map by Ketki<br>
---> followed tutorial from https://leafletjs.com/examples/choropleth/ <br>
---> map also utilizes api, it takes a map from another api website.<br>
---> can zoom in and out on map<br>
---> code for map was in java script, so it was a challenge to figure out how to call that code in our project, which is HTML and python<br>
---> Goal is to have data from table visible on map when hovering on a state<br>
-
-- Begun to work to create a session for the website by Lucas <br>
---> Using this tutorial from https://www.youtube.com/watch?v=2Zz97NVbH0U <br>
---> The session will attach to the database to allow users to access the website<br>
---> Uses SQLite<br>
---> No CSS yet<br>
---> Also linked the easter egg through the picture click<br>
-
-- Compeleted deploying the website and all forms with it by Dayita <br>
---> Made on the virtual box<br>
---> Completes all the requirements for the deploy process<br>
---> Can be assessed through link<br>
-
-- Iniyaa <br>
---> Embedded links to college board<br> 
---> Also embedded links to Ap prep materials such as weekly tests and journals<br> 
---> Used the same design to make it look just like the other parts of our website<br>
---> Links through the California page<br>
---> Rethink ticket idea, previous idea doesn't have hardcore data to go with it<br>
---> Changed idea - check boxes or choose button and result is likelyhood of catching covid<br>
-Research: https://www.nature.com/articles/d41586-020-03637-y, https://www.webmd.com/lung/news/20201109/whats-my-risk-of-covid, 
-https://www.mdlinx.com/article/what-are-the-odds-online-calculators-predict-death-covid-19-cancer-and-more/TTxcCN0OSNTMU5eINtlOk
-
-
+Expand python knowledge, become more familiar with using databases, find new areas in computer science to learn about <br>
