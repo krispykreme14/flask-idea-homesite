@@ -24,7 +24,7 @@ link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 <br>
 
 
-<h2> Easter Egg: by Iniyaa </h2> <br>
+<h2> Easter Egg: by Ketki </h2> <br>
 The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 <br>
