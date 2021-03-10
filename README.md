@@ -55,9 +55,7 @@ This map pulls data from the same source as the table. When you hover on each st
 <br>
 link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a>
 <br>
-(https://user-images.githubusercontent.com/73010548/110580126-d9518d80-811c-11eb-8e90-3697acbf6149.PNG)
 
-<br>
 
 <h2> Easter Egg: by Iniyaa </h2> <br>
 The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
@@ -68,11 +66,6 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
 <br>
-(https://user-images.githubusercontent.com/73010548/110580142-e3738c00-811c-11eb-8350-5f006666ce66.PNG)
-<br>
-(https://user-images.githubusercontent.com/73010548/110580147-e5d5e600-811c-11eb-8415-c2640bcb4460.PNG)
-
-<br>
 
 <h2> Website Outline: by Iniyaa </h2> <br>
 The Website outline was the first ticket completed. This is the framework for the website, which includes the app.routes in main.py, the html pages in templates, the nav bar in base.html and more. This website was created primarily in python and html, but also has some css, jinja, and bootstrap. <br>
@@ -80,12 +73,6 @@ The Website outline was the first ticket completed. This is the framework for th
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
-
-(https://user-images.githubusercontent.com/73010548/110580160-ee2e2100-811c-11eb-8da5-dfbe8f8d58eb.PNG)
-
-(https://user-images.githubusercontent.com/73010548/110580165-eff7e480-811c-11eb-8e4a-2cb69baf9ddc.PNG)
-
-(https://user-images.githubusercontent.com/73010548/110580170-f25a3e80-811c-11eb-998f-4510cf197e4c.PNG)
 
 
 <h2> Raspberry Pi: by Dayita </h2> <br>
