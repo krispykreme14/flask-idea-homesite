@@ -17,6 +17,14 @@ Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 
 <br>
 
+<h2> Clickable Links to State Data</h2> <br>
+From the data table on the home page, you can click on the state abbreviations. Doing so will take you to another page, where the REALTIME data of that state is displayed. The displayed data is total positive and negative cases. These pages were created with the intent of isolating the data from one state onto a page, displaying it in an easy to read format. These pages utilize the same data requests as the table on the home page. 
+<br>
+Link to Code: line 232-239<a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/State.html"> here</a> <br>
+
+
+<br>
+
 <h2> Interactive COVID map: by Ketki</h2> <br>
 This map pulls data from the same source as the table. When you hover on each state, you see the REALTIME data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
 <br>
