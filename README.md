@@ -119,7 +119,26 @@ We use procedures which can be seen in our main.py file. The procedures each ren
 <h2>Output</h2> <br>
 The COVID map is an output with all the color coded states and state statistics. The RestAPI data is displayed in both the table and the map. Additionally, the results page of the COVID trivia quiz are also an output which is in response to the users input.<br>
 
-<h2>Algorithm</h2> <br>
+<h2>Algorithms</h2> <br>
 We have many algorithms in our project. We have if/elif statements in the quiz part of the website which appends to a list, collecting how many answers you get right. Additionally, we use GET and POST in both the quiz and the login, which takes account of the input the user puts into the website. The quiz uses the users choices and the POST prodedure is used in the results/submit portion. Additionally, GET is used for getting the data from the user when they are signing up, and POST is used to send data to the server, which then remembers the user. <br>
 
+# College Board Big Ideas
+<h2>1. Creative Development</h2> <br>
+Our website is a creative outlet for all our team members. The look and contents of the website reflects each of our creative thoughts and ideas. We worked collaborativley to bring togeather a COVID webscraper site which gives the user information about the pandemic. <br>
 
+<h2>2. Data</h2> <br>
+We use SQLite for the login page and use RestAPIs for our data that is shown in the map and table. We use GET and POST in our login and quiz pages. This is connected in our python bakcend. <br>
+
+<h2>3. Algorithms and Programming</h2> <br>
+We use Python, HTML, JINJA, and bootstrap on our website to create an aesthetic website. We use python for the backend code which includes more logic, and we use HTML and JINJA for our front end code which is the visual aspect of the website. <br>
+
+<h2>4. Computer Systems and Networks</h2> <br>
+Our website is deployed on a Raspberry Pi server, which allows anyone to acess the website. WE also use HTTP to get data from the use and POST to update our database of logins. <br>
+
+<h2>5. Impact of Computing</h2> <br>
+Not only did building this website help each of our team members grow intellectually, our website can also help people living today worried about their wellbeind during this global pandemic. Since this website shows statistics about covid and even has a trivia quiz which tests a person's aptitude in covid related situations. Our team was able to expand our computer science horizons, and looks forward to learning even more aspects of computer science next trimester and beyond <br>
+
+
+# Goals for Tri 3
+<br>
+Expand python knowledge, become more familiar with using databases, find new areas in computer science to learn about <br>
