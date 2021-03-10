@@ -20,7 +20,7 @@ Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 <h2> Clickable Links to State Data</h2> <br>
 From the data table on the home page, you can click on the state abbreviations. Doing so will take you to another page, where the REALTIME data of that state is displayed. The displayed data is total positive and negative cases. These pages were created with the intent of isolating the data from one state onto a page, displaying it in an easy to read format. These pages utilize the same data requests as the table on the home page. 
 <br>
-Link to Code: line 232-239<a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/State.html"> here</a> <br>
+Link to Code: line 232-239 in <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">this file</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/State.html"> this whole file</a> <br>
 
 
 <br>
