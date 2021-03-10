@@ -13,7 +13,7 @@ To use simply click the links in the nav bar! This website was designed with eas
 This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
-![covidhomepagealsdkjfa;sldkjf](https://user-images.githubusercontent.com/73010548/110580111-d2c31600-811c-11eb-8213-6ae2cb2961a6.PNG)
+![homepageimage](https://user-images.githubusercontent.com/73010548/110580111-d2c31600-811c-11eb-8213-6ae2cb2961a6.PNG)
 
 <br>
 
@@ -21,7 +21,8 @@ Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 This map pulls data from the same source as the table. When you hover on each state, you see the data for that state. States are also color coded based on the number of cases there. The map code has mostly been taken from <a href="https://leafletjs.com/examples/choropleth/"> here</a> with some modifications.
 <br>
 link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/map.html">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/base.html"> here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py"> here</a>
-![covid map als;dkjfasl;kdjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110580126-d9518d80-811c-11eb-8e90-3697acbf6149.PNG)
+<br>
+![mapimage](https://user-images.githubusercontent.com/73010548/110580126-d9518d80-811c-11eb-8e90-3697acbf6149.PNG)
 
 <br>
 
@@ -33,8 +34,10 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/t
 <h2> Covid Trivia: by Iniyaa </h2> <br>
 The Trivia page was created using Flask WTForms. The code on main.py is in python and connects with the code in quiz.html and submit.html which have the code for the visual aspects of the trivia. In the top part of main.py, under the imports, you can see the arrays and class that were created for the trivia form. These are referencend towards the bottom of the filed werhe the quiz form and response page are created and the routes are. Here, you can see the python logic behind the code for the quiz. In quiz.html and submit.html, you can see the html code and jinja components of the trivia quiz page. Try it out and see how much you know about being safe during the pandemic!
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/quiz.html, https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/submit.html
-![quiz page al;dskjfa;sldkfj;asldkj](https://user-images.githubusercontent.com/73010548/110580142-e3738c00-811c-11eb-8350-5f006666ce66.PNG)
-![results alsd;kfjasl;dkjfal;skdjasldk](https://user-images.githubusercontent.com/73010548/110580147-e5d5e600-811c-11eb-8415-c2640bcb4460.PNG)
+<br>
+![quiz image](https://user-images.githubusercontent.com/73010548/110580142-e3738c00-811c-11eb-8350-5f006666ce66.PNG)
+<br>
+![quiz results image](https://user-images.githubusercontent.com/73010548/110580147-e5d5e600-811c-11eb-8415-c2640bcb4460.PNG)
 
 <br>
 
@@ -44,9 +47,12 @@ The Website outline was the first ticket completed. This is the framework for th
 <h2> Database: by Lucas </h2> <br>
 The database has a full hsitory of who used and signed up for the website via SQLite. The tab for the database can be found under the Sign-Up tab on the nav bar. After the database is complete, a session should be connected to that part of the website so only those who has signed up by giving there email and password can access the covid data. 
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
-![register page al;dsfkjasldkjf](https://user-images.githubusercontent.com/73010548/110580160-ee2e2100-811c-11eb-8da5-dfbe8f8d58eb.PNG)
-![login as;dlfal;sdkfjalskdjf;aslkdfj;laks](https://user-images.githubusercontent.com/73010548/110580165-eff7e480-811c-11eb-8e4a-2cb69baf9ddc.PNG)
-![after login al;dskjfaldskjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110580170-f25a3e80-811c-11eb-998f-4510cf197e4c.PNG)
+<br>
+![register page image](https://user-images.githubusercontent.com/73010548/110580160-ee2e2100-811c-11eb-8da5-dfbe8f8d58eb.PNG)
+<br>
+![login page image](https://user-images.githubusercontent.com/73010548/110580165-eff7e480-811c-11eb-8e4a-2cb69baf9ddc.PNG)
+<br>
+![after login page image](https://user-images.githubusercontent.com/73010548/110580170-f25a3e80-811c-11eb-998f-4510cf197e4c.PNG)
 
 <br>
 
