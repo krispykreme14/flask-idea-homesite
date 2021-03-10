@@ -66,3 +66,17 @@ asdasdfjasdf"> here</a> <br>
 # College Board Requirements
 <h2> Inputs</h2> <br>
 We have multiple places where user input is necessary on our website. Users must input their username, email, and password to sign up, and must input their username and password to login to our website. Additionally, users must input their choices for the covid trivia quiz in order to get their score/the correct answers. Links to code with corresponding ticket items. <br>
+
+<h2>Lists</h2> <br>
+We use lists for thq covid trivia, as the correct answers are stored in a list as are the the answer choices. Additionally, the state abbreviations are stored in a dictionary that counts in the list category in terms of college board requirements. <br>
+
+<h2>Procedures</h2> <br>
+We use procedures which can be seen in our main.py file. The procedures each render a html file and the different routes correspond to pages on the website. Additionally, the quiz and login are both procedures, and the results from the quiz procedure is passed to submit to display the correct/incorrect answers.<br>
+
+<h2>Output</h2> <br>
+The COVID map is an output with all the color coded states and state statistics. The RestAPI data is displayed in both the table and the map. Additionally, the results page of the COVID trivia quiz are also an output which is in response to the users input.<br>
+
+<h2>Algorithm</h2> <br>
+We have many algorithms in our project. We have if/elif statements in the quiz part of the website which appends to a list, collecting how many answers you get right. Additionally, we use GET and POST in both the quiz and the login, which takes account of the input the user puts into the website. The quiz uses the users choices and the POST prodedure is used in the results/submit portion. Additionally, GET is used for getting the data from the user when they are signing up, and POST is used to send data to the server, which then remembers the user. <br>
+
+
