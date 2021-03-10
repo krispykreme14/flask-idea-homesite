@@ -229,7 +229,7 @@ def NJ_route():
     return render_template("NJ.html", projects=projects.setup())
 
 
-# connects /state/:code to render dynamic state detailed data
+# connects /state/:code to render realtime state detailed data
 @app.route('/state/<state>')
 def state_route(state):
     response = requests.get("https://api.covidtracking.com/v1/states/" + state + "/current.json")
