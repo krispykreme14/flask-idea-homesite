@@ -1,36 +1,3 @@
-**Images that correspond to tickets**
-<br>
-This set of images highlights some of the more notable aspects of our website, scroll down to see more details about our website/college board requirements
-<br>
-Home page w/ COVID data RestAPI
-<br>
-![covidhomepagealsdkjfa;sldkjf](https://user-images.githubusercontent.com/73010548/110581769-018ebb80-8120-11eb-98a1-42f649f2e3b4.PNG)
-<br>
-COVID Map
-<br>
-![covid map als;dkjfasl;kdjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581778-03f11580-8120-11eb-9f1c-371ecd279c57.PNG)
-<br>
-Register Page
-<br>
-![register page al;dsfkjasldkjf](https://user-images.githubusercontent.com/73010548/110581791-094e6000-8120-11eb-9447-5131d0017f06.PNG)
-<br>
-Sign In Page for returning users
-<br>
-![login as;dlfal;sdkfjalskdjf;aslkdfj;laks](https://user-images.githubusercontent.com/73010548/110581801-0eabaa80-8120-11eb-9c8b-f81dfa391728.PNG)
-<br>
-Page after login
-<br>
-![after login al;dskjfaldskjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581806-11a69b00-8120-11eb-9c7f-d1e98967f681.PNG)
-<br>
-Quiz Page
-<br>
-![quiz page al;dskjfa;sldkfj;asldkj](https://user-images.githubusercontent.com/73010548/110581816-1408f500-8120-11eb-8e07-bcd7052f6b76.PNG)
-<br>
-Results Page
-<br>
-![results alsd;kfjasl;dkjfal;skdjasldk](https://user-images.githubusercontent.com/73010548/110581821-18351280-8120-11eb-9896-f0f7b1e09cab.PNG)
-
-
 # Welcome to our COVID information site.
 
 <h2>Website Overview:</h2>
@@ -80,6 +47,37 @@ The database has a full hsitory of who used and signed up for the website via SQ
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py
 <br>
 
+**Images that correspond to tickets**
+<br>
+This set of images highlights some of the more notable aspects of our website, scroll down to see more details about our website/college board requirements
+<br>
+Home page w/ COVID data RestAPI
+<br>
+![covidhomepagealsdkjfa;sldkjf](https://user-images.githubusercontent.com/73010548/110581769-018ebb80-8120-11eb-98a1-42f649f2e3b4.PNG)
+<br>
+COVID Map
+<br>
+![covid map als;dkjfasl;kdjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581778-03f11580-8120-11eb-9f1c-371ecd279c57.PNG)
+<br>
+Register Page
+<br>
+![register page al;dsfkjasldkjf](https://user-images.githubusercontent.com/73010548/110581791-094e6000-8120-11eb-9447-5131d0017f06.PNG)
+<br>
+Sign In Page for returning users
+<br>
+![login as;dlfal;sdkfjalskdjf;aslkdfj;laks](https://user-images.githubusercontent.com/73010548/110581801-0eabaa80-8120-11eb-9c8b-f81dfa391728.PNG)
+<br>
+Page after login
+<br>
+![after login al;dskjfaldskjfa;lskdjf](https://user-images.githubusercontent.com/73010548/110581806-11a69b00-8120-11eb-9c7f-d1e98967f681.PNG)
+<br>
+Quiz Page
+<br>
+![quiz page al;dskjfa;sldkfj;asldkj](https://user-images.githubusercontent.com/73010548/110581816-1408f500-8120-11eb-8e07-bcd7052f6b76.PNG)
+<br>
+Results Page
+<br>
+![results alsd;kfjasl;dkjfal;skdjasldk](https://user-images.githubusercontent.com/73010548/110581821-18351280-8120-11eb-9896-f0f7b1e09cab.PNG)
 # Who am I in computer science!
 <h2>Ketki</h2> <br>
 I am competent in Python programming and am working on becoming an expert, I can build a Python/Flast web server, I can develop web frontends uisng HTML, CSS, and BootSTrap, I know Database concepts like establishing table sto setup and manage user accounts. I understand REST APIs capabilities Flask request and parsin resulting data from JSON, I am now learning concepts of curating data, searchign data, and starting to become competent in concepts like Data Analytics. <br>
