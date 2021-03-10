@@ -45,18 +45,17 @@ link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/m
 <br>
 
 # Who am I in computer science!
-<h2> Ketki</h2> <br>
-asdasdfjasdf"> here</a> <br>
+<h2>Ketki</h2> <br>
+type stuff <br>
 
 <h2>Iniyaa</h2> <br>
 I can build a Python/Flask webpage using html and python(frontend and backend code). I can develop web front ends(shown in the state html pages along with quiz, navbar, and home page). I am learning the concepts of HTML forms and exchanging data between frontend and backend using Flask Framework and Jinja variables(shown by quiz page and results page). I am a collaborative worker who can effectively communicate and work on a shared platform wiht scrum team members.</a> <br>
 
-<h2> Ketki</h2> <br>
-asdasdfjasdf"> here</a> <br>
+<h2>Lucas</h2> <br>
+type stuff <br>
 
-<h2> Ketki</h2> <br>
-asdasdfjasdf"> here</a> <br>
-
+<h2>Dayita</h2> <br>
+type stuff <br>
 
 # College Board Requirements
 <h2> Inputs</h2> <br>
