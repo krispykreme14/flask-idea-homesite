@@ -126,4 +126,4 @@ Not only did building this website help each of our team members grow intellectu
 
 # Goals for Tri 3
 <br>
-Expand python knowledge, become more familiar with using databases, find new areas in computer science to learn about <br>
+Become more familiar with using databases, start learning the art of data analytics, learn how to use data to do other things such as risk analysis <br>
