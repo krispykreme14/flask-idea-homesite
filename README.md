@@ -10,7 +10,7 @@ To use simply click the links in the nav bar! This website was designed with eas
 
 # Completed Tickets!
 <h2> COVID Data REST API: by Ketki</h2> <br>
-This api pulls data from a json formatted file, and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
+This api pulls data from a <a href="https://api.covidtracking.com/v1/states/current.json">json formatted file,</a>  and it displays the data on the homescreen of the website. The Json file contains lots of data for all 50 states, but I have only displayed key categories of data in the table. The table also uses features from bootstrap.
 <br>
 Link to Code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/main.py">click here</a> and <a href="https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/home.html"> here</a> <br>
 
@@ -25,7 +25,7 @@ link to code: <a href="https://github.com/krispykreme14/flask-idea-homesite/blob
 
 
 <h2> Easter Egg: by Ketki </h2> <br>
-The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards.
+The easter egg, which can be accessed by clicking on the image of California under the CA page (accessed from navbar), displays our study journals, which have information on the College Board exam, as well as AP CSP fundamental standards. The I statements are also featured on this page! The code for the I-statement cards is from bootstrap.
 link to code: https://github.com/krispykreme14/flask-idea-homesite/blob/master/templates/Easter.html
 <br>
 
